@@ -1,0 +1,91 @@
+body,html{
+padding: 0;
+margin: 0;
+
+}
+*{
+    transition: 0.3s all ease-in
+}
+
+@font-face {
+    font-family: 'l';
+    src: url(font/l-webfont.eot);
+    src: url(font/l-webfont.eot?#iefix) format('embedded-opentype'), url(font/l-webfont.woff2) format('woff2'), url(font/l-webfont.woff) format('woff'), url(font/l-webfont.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'r';
+    src: url(font/r-webfont.eot);
+    src: url(font/r-webfont.eot?#iefix) format('embedded-opentype'), url(font/r-webfont.woff2) format('woff2'), url(font/r-webfont.woff) format('woff'), url(font/r-webfont.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 't';
+    src: url(font/t-webfont.eot);
+    src: url(font/t-webfont.eot?#iefix) format('embedded-opentype'), url(font/t-webfont.woff2) format('woff2'), url(font/t-webfont.woff) format('woff'), url(font/t-webfont.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+.wrapper{
+width: calc(100% - 100px);
+margin: 0 auto;
+
+}
+
+.col1{
+width: calc(((100% / 12) * 1) - calc((25px - (25px / 12))));
+
+}
+.col2{
+width: calc(((100% / 12) * 2) - calc((25px - (25px / 12) * 2)));
+
+}
+.col3{
+width: calc(((100% / 12) * 3) - calc((25px - (25px / 12) * 3)));
+
+}
+.col4{
+width: calc(((100% / 12) * 4) - calc((25px - (25px / 12) * 4)));
+
+}
+.col5{
+width: calc(((100% / 12) * 5) - calc((25px - (25px / 12) * 5)));
+
+}
+.col6{
+width: calc(((100% / 12) * 6) - calc((25px - (25px / 12) * 6)));
+
+}
+.col7{
+width: calc(((100% / 12) * 7) - calc((25px - (25px / 12) * 7)));
+
+}
+.col8{
+width: calc(((100% / 12) * 8) - calc((25px - (25px / 12) * 8)));
+
+}
+.col9{
+width: calc(((100% / 12) * 9) - calc((25px - (25px / 12) * 9)));
+
+}
+.col10{
+width: calc(((100% / 12) * 10) - calc((25px - (25px / 12) * 10)));
+
+}
+.col11{
+width: calc(((100% / 12) * 11) - calc((25px - (25px / 12) * 11)));
+
+}
+.col12{
+width: calc(((100% / 12) * 12) - calc((25px - (25px / 12) * 12)));
+
+}
+
+
+
+

@@ -1,0 +1,392 @@
+body{
+    background-image: url(https://ibar.az/site/templates/style/img/inner_page_bg.png)
+
+}
+
+.main{
+    width: 100%;
+    position:relative;
+ 
+
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.middler{
+    width: 100%;
+    height: 670px;
+   color: #fff;
+    background: url(https://ibar.az/site/assets/files/1067/elektrondep1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .45;
+ background-position: center center;
+ background-attachment: fixed;
+}
+
+.md_wrap{
+    width: 700px;
+    height: 250px;
+    
+    position: absolute;
+    top: 230px;
+    left: 340px;
+}
+.md_wrap>h1{
+    text-align: center;
+    font-size: 94px;
+    line-height: 0px;
+    color: #fff;
+    font-weight: normal;
+    font-family: 't',Arial, Helvetica, sans-serif;
+    
+    
+}
+.md_wrap>p{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-family: 't',Arial, Helvetica, sans-serif; 
+   
+}
+.md_wrap>ul{
+    text-align: center;
+   background: rgba(0, 0, 0, .1);
+    display: inline-block;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+.md_wrap>ul>li{
+    list-style: none;
+    float: left;
+     height: 60px;
+     margin-right: 10px;
+     font-size: 15px;
+     color: white;
+     line-height: 60px;
+     cursor: pointer;
+     font-family: 'l' ,Arial, Helvetica, sans-serif;
+
+}
+.md_wrap>ul>li:hover{
+    background: rgba(0, 0, 0, .1); 
+}
+
+.md_wrap>ul>li:nth-child(1){
+    width: 60px;
+}
+.md_wrap>ul>li:nth-child(2){
+    width: 220px;
+}
+.md_wrap>ul>li:nth-child(3){
+    width: 74px;
+}
+.md_wrap>ul>li:nth-child(4){
+    width: 100px;
+}
+.scrolldown{
+    width: 20px;
+    height: 55px;
+    position: absolute;
+    
+    bottom: 20px;
+   position: absolute;
+   left: 50%;
+}
+.mousey{
+    width: 2px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 3px 6px;
+        opacity: 0.5;
+
+}
+.scroller{
+    width: 2px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 25%;
+     animation-name: example;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+   
+    position: relative;
+   
+}
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:0px; top:0px;}
+    50%  { left:0px; top:0px;}
+    75%  { left:0px; top:18px;}
+    100% { background: no-repeat}
+}
+.clear{
+    clear: both;
+}
+.content{
+    width: 100%;
+
+}
+.white{
+width: 850px;
+float: right;
+margin-right: 80px;
+position:relative;
+
+
+}
+.conditions{
+    width: 850px;
+    height: 331px;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.subscription{
+    width: 850px;
+    height: 345px;
+    background:#fff ;
+     padding: 40px;
+      box-sizing: border-box;
+}
+.percent{
+width: 850px;
+height: 590px;
+background: #fff;
+ padding: 40px;
+      box-sizing: border-box;
+
+}
+.conditions>h4{
+font-size: 2em;
+margin: 0;
+padding: 0;
+    color: #2e56a6;
+    font-family: "l",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+        margin: 0 0 20px;
+}
+.conditions>h3,.subscription>h3{
+    font-size: 16.8px;
+    color: #1E2126;
+    font-family: "l",Arial, Helvetica, sans-serif;
+
+}
+.conditions>p,.subscription>p{
+ font-family: "l",Arial, Helvetica, sans-serif;
+ font-size: 15.4px;
+ font-weight: normal;
+}
+.subscription>h4{
+   color: #2e56a6; 
+   font-size: 2em;
+margin: 0;
+padding: 0;
+font-family: "l",Arial, Helvetica, sans-serif;
+        margin: 0 0 20px;
+        font-weight: 400;
+
+}
+.percent>h4{
+color: #2e56a6; 
+   font-size: 2em;
+margin: 0;
+padding: 0;
+font-family: "l",Arial, Helvetica, sans-serif;
+        margin: 0 0 20px;
+}
+
+#canals{
+    margin: 0;
+    padding: 0;
+}
+
+#canals>li>div{
+    width: 25px;
+    height: 1px;
+    background: #1e2126;
+    position: relative;
+    top: 9px;
+    
+}
+
+#canals>li>span{
+    position: relative;
+    left: 32px;
+}
+#canals>li{
+    list-style: none;
+}
+.percent td{
+    padding:20px;
+    border:1px solid rgba(0, 0, 0, .05);    
+}
+table{
+    border-collapse: collapse;
+    border-radius: 100px !important;
+}
+.inner_menu{
+    width: 200px;
+    height: 230px;
+        background: rgba(255, 255, 255, .1);
+        border-radius: 10px;
+       position:relative;
+       left:80px;
+       top:0;
+       
+       
+        
+     
+}
+b{
+    color: #fff;
+        padding: 15px 20px;
+        font-family: 't',Arial, Helvetica, sans-serif; 
+        font-size: 21px;
+        display: block;
+        font-weight: normal;
+}
+
+.menu_page{
+         padding: 0;
+   margin: 0;
+      
+}
+.menu_page>li{
+    list-style: none;
+    height: 33px;
+   cursor: pointer;
+
+}
+.menu_page>li:hover{
+    background: rgba(255, 255, 255, .15);
+}
+.active{
+    background: rgba(255, 255, 255, .15);
+}
+
+.menu_page>li:nth-child(2){
+height: 52px;
+
+}
+.menu_page>li>a{
+     
+        display: block;
+        color: #fff;
+        font-weight: normal;
+       padding: 7px 20px;
+        font-family: "l",Arial, Helvetica, sans-serif;
+
+        
+       
+
+        
+    }
+    /*calc*/
+.calcsection{
+    height:411px;
+    width:100%;
+    position:relative;
+    box-sizing:border-box;
+    background:url(calc_bg.png) center center no-repeat ;
+    background-size:cover;
+    float:right;  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:40px;
+    position:relative;
+    font-family:"t";
+    font-weight: 100;
+    color:white;
+}
+.calcsection .col4{
+    display:inline-block;
+}
+.calcsection .row h4{
+    color:white;
+    font-size:28px;
+    margin-bottom:20px;
+
+}
+.calcsection> .row p{
+   position:absolute;
+   top:50px;
+   right:50px;
+   font-size:15.4px;
+   color:white;
+}
+.calcsection .calcunder .row {
+    height:100px;
+
+}
+.calcunder .row .col4 {
+    line-height:30px;
+    font-size:15.4px;
+}
+.calcunder .row .col4:nth-child(-n+2) p:nth-child(2) {
+   font-size:50px;
+   margin:15px 0;
+   opacity:0.5;
+   font-weight:normal;
+
+
+}
+.calcunder .row .col4 select{
+    width:230px;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+}
+.calcunder .row .col4 select option{
+    font-size:30px;
+    color:black;
+    
+}
+#selectlist{
+    font-size:30px;
+    color:white;
+    opacity:0.5;
+  
+ 
+    
+}
+input[type=range] {
+  -webkit-appearance: none;
+ 
+}
+input[type=range]:focus {
+  outline: none;
+  
+}
+input[type=range]::-webkit-slider-thumb:focus{
+    background:white;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+ height:3px;
+  cursor: pointer;
+
+  box-shadow: 0px 0px 0px #000000;
+  background: #3a5277;
+  border-radius: 10px;
+  border: 0px solid #000000;
+  opacity:0.7;
+  z-index:0;
+ 
+  }
+  input[type=range]::-webkit-slider-thumb {
+  border: 1px solid white;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: white;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+  opacity:1 !important;
+  z-index:4;
+  }

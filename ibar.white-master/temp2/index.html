@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body onscroll="change()">
+   <div class="main">
+     
+ <div class="middler"></div>
+<div class="wrapper">
+<div class="md_wrap">
+<h1>Elektron Depozit</h1>
+<p> Banka gəlmədən depozit açın </p>
+<ul class="nav_page">
+    <li  onclick="tikla1()">Şərtlər</li>
+    <li onclick="tikla2()">Qoşulma və istifadə qaydaları</li>
+    <li onclick="tikla3()">Faizlər</li>
+    <li onclick="tikla4()">Kalkulyator</li>
+</ul>
+
+
+
+</div>
+
+<div class="scrolldown">
+    <div class="mousey">
+        <div class="scroller"></div>
+    </div>
+</div>
+
+<div class="clear"></div>
+
+
+
+<div class="content">
+    <div class="white">
+        <div class="conditions">
+<h4>Şərtlər</h4>
+<h3>Üstünlüklər</h3>
+<p>ElektronDepozit Sizə 24/7 rejimində<u> «Klassik» əmanət</u> şərtləri ilə kart hesabınızdan əmanətə pul köçürməyə imkan verir.</p>
+<h3>Faizlərin hesablanması və köçürülməsi</h3>
+<p>Əmanətin əsas məbləği müddətin sonunda və əmanətə hesablanmış faizlər mütəmadi olaraq Sizin kart hesabınıza köçürüləcək.
+     Beləliklə, bankın filiallarına müraciət etməyə ehtiyac qalmayacaq.</p>
+        </div>
+        <div class="subscription">
+<h4>Qoşulma və istifadə qaydaları</h4>
+<h3>Qoşulma</h3>
+<p>Kart açdığınız filial/şöbəyə yaxınlaşın və ərizə formasını və  çərçivə əmanət müqaviləsini bağlayın.
+     Həmin müqavilə əsasında Siz istədiyiniz həcmdə və sayda əmanət aça bilərsiniz.</p>
+     <h3>Əmanət açmaq üçün aşağıdakı kanallardan istifadə edə bilərsiniz:</h3>
+  
+  
+   <ul id="canals">
+       <li><div></div> <span>Bankomat</span></li>
+       <li><div></div> <span>Cash-in bankomat</span></li>
+   </ul>
+
+        </div>
+        <div class="percent">
+            <h4>Faizlər</h4>
+            <table >
+                <thead style="border-radius: 5px;"></thead>
+                <tbody style="border-radius: 5px;">
+                    <tr style="border-radius: 5px;">
+                        <td style="border-radius: 5px;"><p>Depozitin müddəti</p></td>
+                        <td colspan="2" ><p>Manat ilə (illik)</p></td>
+                        <td colspan="2"><p>ABŞ dolları ilə (illik)</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Faizlərin ödənilməsi</td>
+                        <td>Faizlər hər ay ödənildikdə-</td>
+                        <td>Faizlər hər il ödənildikdə</td>
+                        <td>Faizlər hər ay ödənildikdə</td>
+                        <td>Faizlər hər il ödənildikdə</td>
+                    </tr>
+                    <tr>
+                        <td><p>12 ay</p></td>
+                        <td><p>11%<p></td>
+                        <td><p>12%</p></td>
+                        <td><p>3.0%</p></td>
+                        <td><p>3.25%</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>24 ay</p></td>
+                        <td><p>12%</p></td>
+                        <td><p>13%</p></td>
+                        <td><p>-</p></td>
+                        <td><p>-</p></td>
+                    </tr>
+                    <tr>
+                         <td><p>24 ay</p></td>
+                        <td><p>12%</p></td>
+                        <td><p>13%</p></td>
+                        <td><p>-</p></td>
+                        <td><p>-</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+              <div class="calcsection">
+                    <div class="row">
+                        <h4>Kalkulyator</h4>
+                     <p>Ödəniş növü: aylıq, bərabər hissələrlə</p>
+                    </div>
+                     <div class="calcunder">
+                            <div class="calcself">
+                            <div class="row">
+                                <div class="col4">
+                                    <p>Əmanətin məbləği</p>
+                                    <p>300000</p>
+                                    <input type="range" min="0" max="1000000" value="300000" step="100">
+                                </div>
+                                <div class="col4">
+                                    <p>Müddət</p>
+                                    <p>12 ay</p>
+                                    <input type="range" value="12" min="12" max="36" step="12">
+                                </div>
+                                <div class="col4">
+                                    <p>Faizlərin ödənilməsi</p>
+                                    <p>
+                                        <select id="selectlist">
+
+                                            <option id="1" selected >Hər ay</option>
+
+                                            <option id="2" >
+                                                Hər il
+                                            </option>
+
+                                        </select>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+              
+              </div>
+        </div>
+        <!--white ends-->
+
+        
+
+
+
+
+
+
+
+<!--inner menu-->
+        <div class="inner_menu">
+            <b>ElektronDepozit</b>
+            <ul class="menu_page">
+                <li class="active" onclick="click1()"><a>Şərtlər</a></li>
+                <li onclick="click2()"><a>Qoşulma və istifadə qaydaları</a></li>
+                <li onclick="click3()"><a>Faizlər</a></li>
+                <li onclick="click4()"><a>Kalkulyator<a></li>
+            </ul>
+        </div>
+              
+
+
+
+</div>
+
+
+
+
+ </div>
+ </div>
+          
+           
+
+  <script src="script.js"></script>
+
+</body>
+</html>
